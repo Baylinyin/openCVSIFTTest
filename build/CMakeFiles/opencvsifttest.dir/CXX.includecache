@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/izquierdocr/projects/openCVSIFTTest/main.cpp
+iostream
+-
+opencv2/opencv.hpp
+-
+opencv2/nonfree/features2d.hpp
+-
+
